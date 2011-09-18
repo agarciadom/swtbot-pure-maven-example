@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.eclipse</groupId>
+  <artifactId>jface</artifactId>
+  <version>3.6.2.M20110210</version>
+  <packaging>jar</packaging>
+  <name>Eclipse :: JFace</name>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse</groupId>
+      <artifactId>osgi</artifactId>
+      <version>3.6.2.R36x</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.core</groupId>
+      <artifactId>commands</artifactId>
+      <version>3.6.0.I20100512</version>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.equinox</groupId>
+      <artifactId>common</artifactId>
+      <version>3.6.0</version>
+    </dependency>
+    <dependency>
+      <groupId>es.uca</groupId>
+      <artifactId>swt</artifactId>
+      <version>3.6.1</version>
+      <type>pom</type>
+    </dependency>
+  </dependencies>
+
+</project>

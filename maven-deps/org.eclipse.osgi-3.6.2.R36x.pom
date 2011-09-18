@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.eclipse</groupId>
+  <artifactId>osgi</artifactId>
+  <version>3.6.2.R36x</version>
+  <packaging>jar</packaging>
+
+  <name>Eclipse :: OSGi</name>
+  <description>OSGi engine used in Eclipse</description>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

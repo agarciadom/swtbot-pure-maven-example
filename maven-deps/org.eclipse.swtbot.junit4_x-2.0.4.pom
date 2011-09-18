@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.eclipse.swtbot</groupId>
+  <artifactId>junit4_x</artifactId>
+  <version>2.0.4</version>
+  <packaging>jar</packaging>
+
+  <name>SWTBot - JUnit 4/X integration</name>
+  <description>Runners for taking screenshots on test failures</description>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.swtbot.swt</groupId>
+      <artifactId>finder</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+  </dependencies>
+</project>

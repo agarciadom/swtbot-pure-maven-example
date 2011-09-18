@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>es.uca</groupId>
+  <artifactId>swt</artifactId>
+  <version>3.6.1</version>
+  <packaging>pom</packaging>
+
+  <name>SWT metamodule</name>
+  <description>Module which picks up the right version of SWT automatically</description>
+
+  <!--
+      Note: Mac OS X is *not* yet supported in this project, as I
+      don't have an actual Mac to test it on.
+  -->
+  <profiles>
+    <profile>
+      <id>linux-x86</id>
+      <activation>
+	<os>
+	  <name>linux</name>
+	  <arch>i386</arch>
+	</os>
+      </activation>
+      <dependencies>
+	<dependency>
+	  <groupId>org.eclipse.swt</groupId>
+	  <artifactId>gtk-linux-x86</artifactId>
+	  <version>${project.version}</version>
+	</dependency>
+      </dependencies>
+    </profile>
+    <profile>
+      <id>linux-x86_64</id>
+      <activation>
+	<os>
+	  <name>linux</name>
+	  <arch>amd64</arch>
+	</os>
+      </activation>
+      <dependencies>
+	<dependency>
+	  <groupId>org.eclipse.swt</groupId>
+	  <artifactId>gtk-linux-x86_64</artifactId>
+	  <version>${project.version}</version>
+	</dependency>
+      </dependencies>
+    </profile>
+    <profile>
+      <id>win32-x86</id>
+      <activation>
+	<os>
+	  <family>windows</family>
+	  <arch>x86</arch>
+	</os>
+      </activation>
+      <dependencies>
+	<dependency>
+	  <groupId>org.eclipse.swt</groupId>
+	  <artifactId>win32-x86</artifactId>
+	  <version>${project.version}</version>
+	</dependency>
+      </dependencies>
+    </profile>
+    <profile>
+      <id>win32-x86_64</id>
+      <activation>
+	<os>
+	  <family>windows</family>
+	  <arch>x86_64</arch>
+	</os>
+      </activation>
+      <dependencies>
+	<dependency>
+	  <groupId>org.eclipse.swt</groupId>
+	  <artifactId>win32-x86_64</artifactId>
+	  <version>${project.version}</version>
+	</dependency>
+      </dependencies>
+    </profile>
+  </profiles>
+</project>

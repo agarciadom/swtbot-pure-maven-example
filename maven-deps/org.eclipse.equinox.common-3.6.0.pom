@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.eclipse.equinox</groupId>
+  <artifactId>common</artifactId>
+  <version>3.6.0</version>
+  <packaging>jar</packaging>
+
+  <name>Eclipse :: Equinox (Common)</name>
+  <description>Common components in Eclipse Equinox</description>
+
+  <licenses>
+    <license>
+      <name>Eclipse Public License 1.0</name>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse</groupId>
+      <artifactId>osgi</artifactId>
+      <version>3.6.2.R36x</version>
+    </dependency>
+  </dependencies>
+</project>
