@@ -27,3 +27,4 @@ Testing the SWT application is as simple as running the following command from t
 
 The source code for these examples is under the new BSD license. See LICENSE for details.
 
+For running the supplied Maven module under Jenkins, [this Stack Overflow entry](http://stackoverflow.com/questions/1578002/easiest-way-to-unit-test-swt-and-swing-apps-in-a-headless-environment) should be useful.
