@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SayHello
+Bundle-SymbolicName: es.uca.swt.sayhello
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: University of Cadiz
+Require-Bundle: org.eclipse.swt;bundle-version="3.6.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: es.uca.swt.sayhello.tests
+Bundle-SymbolicName: SayHello.tests
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: University of Cádiz
+Fragment-Host: es.uca.swt.sayhello;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Export-Package: es.uca.swt
+Require-Bundle: org.eclipse.swtbot.swt.finder;bundle-version="2.0.0",
+ org.apache.log4j,
+ org.eclipse.swtbot.junit4_x;bundle-version="2.0.0",
+ org.junit4
