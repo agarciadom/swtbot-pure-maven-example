@@ -19,7 +19,7 @@ This repository is divided into three folders:
 
 * **maven-deps** contains a repackaged version of SWTBot 2.0.4 and its dependencies (based on Eclipse Helios 3.6.2), as pure Maven artifacts. If you're not using a repository manager, you can use `install.sh` to install those dependencies into your local repository.
 
-* **maven-module/sayhello** is the mavenized version of the two previous Eclipse projects, using the repackaged SWTBot from above. You should change the <repository> inside `pom.xml` to the address of your repository manager, if you have one. If you have installed the dependencies through `maven-deps/install.sh`, you can also simply delete the <repositories> element.
+* **maven-module/sayhello** is the mavenized version of the two previous Eclipse projects, using the repackaged SWTBot from above. You should change the `<repository>` inside `pom.xml` to the address of your repository manager, if you have one. If you have installed the dependencies through `maven-deps/install.sh`, you can also simply delete the `<repositories>` element.
 
 Testing the SWT application is as simple as running the following command from the **maven-module/sayhello** directory:
 
