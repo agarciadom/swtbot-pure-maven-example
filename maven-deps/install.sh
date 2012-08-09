@@ -30,5 +30,5 @@ install_module org.eclipse.core.commands-3.6.0.I20100512{.pom,.jar,-sources.jar}
 install_module org.eclipse.equinox.common-3.6.0{.pom,.jar,-sources.jar}
 install_module org.eclipse.jface-3.6.2.M20110210{.pom,.jar,-sources.jar}
 install_module org.eclipse.osgi-3.6.2.R36x{.pom,.jar,-sources.jar}
-install_module org.eclipse.swtbot.junit4_x-2.0.4{.pom,.jar}
-install_module org.eclipse.swtbot.swt.finder-2.0.4{.pom,.jar}
+install_module org.eclipse.swtbot.junit4_x-2.0.5{.pom,.jar}
+install_module org.eclipse.swtbot.swt.finder-2.0.5{.pom,.jar}
