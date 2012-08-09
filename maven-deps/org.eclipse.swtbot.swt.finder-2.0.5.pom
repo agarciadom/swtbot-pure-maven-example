@@ -4,7 +4,7 @@
 
   <groupId>org.eclipse.swtbot.swt</groupId>
   <artifactId>finder</artifactId>
-  <version>2.0.4</version>
+  <version>2.0.5</version>
   <packaging>jar</packaging>
 
   <name>SWTBot for SWT</name>
